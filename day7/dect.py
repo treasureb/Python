@@ -11,3 +11,8 @@ for num in d.itervalues():
     sum += num
 print sum/len(d)
 
+sum = 0.0
+for k,v in d.items():
+    sum += v
+    print k,':',v
+print 'average',':',sum/len(d)
