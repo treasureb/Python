@@ -34,3 +34,10 @@ L.insert(1,L.pop())
 #Lis也支持连接的操纵
 L=[1,2,3,4,5]
 print L+[6,7,8,9]
+
+
+#List支持嵌套
+L=[[1,2,3],[4,5],6,7,8,9]
+print L[0]
+print L[1]
+print L[2]
