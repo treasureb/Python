@@ -30,3 +30,7 @@ classmates[0] = 'Maple'
 L=['Adam','Lisa','Bart']
 L.insert(0,L.pop())
 L.insert(1,L.pop())
+
+#Lis也支持连接的操纵
+L=[1,2,3,4,5]
+print L+[6,7,8,9]
